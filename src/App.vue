@@ -1,11 +1,16 @@
 <script setup>
-import TicTacToe from './components/TicTacToe.vue'
+import TicTacToe from './views/TicTacToe.vue'
 </script>
 
 <template>
-  <main>
+  <div>
+    <nav>
+      <!--<router-link to="/">Home</router-link>
+      <router-link to="/tic-tac-toe">Tic-Tac-Toe</router-link>-->
+    </nav>
     <TicTacToe />
-  </main>
+    <!--<router-view></router-view>-->
+  </div>
 </template>
 
 <style scoped></style>
